@@ -3,9 +3,17 @@
 
 #include <iostream>
 
+#include "envelope.h"
+#include "TestCases/envelope_test.h"
+
 int main()
 {
     std::cout << "Hello World!\n";
+
+	EnvelopeWrapper envelope_wrapper = EnvelopeWrapper();
+	std::vector<double> envelope_output = envelope_wrapper.envelope(envelope_input, 30, "peak");
+
+
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

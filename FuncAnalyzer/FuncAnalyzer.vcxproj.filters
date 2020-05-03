@@ -21,9 +21,18 @@
     <ClCompile Include="envelope.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="findpeaks.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="envelope.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestCases\envelope_test.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="findpeaks.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
